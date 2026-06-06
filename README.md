@@ -1,6 +1,8 @@
 # DeepSeaSOD (Deepsea Salient Object Detection Dataset)
 Underwater salient object detection (USOD) is challenged by frequent object scale variation and distance-dependent image degradation, where scattering blur and light attenuation jointly hinder robust saliency inference. Existing ConvNet-based USOD models typically rely on fixed effective receptive fields (ERFs), making them ill-suited to balancing long-range context aggregation and detail preservation for scale variations. To address this issue, we introduce the modulation of ERFs in the pure ConvNet USOD architecture design for the first time, inspired by the octopus’s vision. We further observe two phenomena: 1) there exists an inherent trade-off between scattering-induced blurriness and direct light attenuation within ERFs, 2) the limited ERF prevents USOD models from covering objects across the wide range of scales present in underwater scenes. Building on these observations, we propose EPRNet, an ERF-guided pure ConvNet for USOD. Specifically, an ERF Resolution Matching Module (ERMM) performs resolution-aware ERF modulation with large kernels, while a vision aggregation feed-forward network (VAFN) suppresses redundant responses and a Parallel Resolution Interaction (PRI) backbone exchanges complementary information between adjacent resolution branches. Extensive experiments on underwater benchmarks demonstrate the effectiveness of EPRNet in handling scale variation. To further validate EPRNet, we introduce DeepseaSOD , a real deep-sea image dataset collected during multiple South China Sea expeditions for evaluating USOD in extreme deep-sea operational scenarios.
 
+Link: https://pan.baidu.com/s/1vYdBgv72-APfJL56tiiXeg?pwd=vs27 Codes: vs27
+
 ## Dataset Structure
 
 ```text
